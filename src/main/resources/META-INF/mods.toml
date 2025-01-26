@@ -1,0 +1,36 @@
+
+modLoader="javafml"
+loaderVersion="[54,)"
+
+license="GPL-3.0-or-later"
+# issueTrackerURL=""
+clientSideOnly=false
+
+[[mods]]
+    modId="archaia"
+    version="1.21.4-0.0.0.0"
+    displayName="ARCHAIA"
+    # updateJSONURL=""
+    # displayURL=""
+    # logoFile=""
+    # credits=""
+    authors="supercowtipper"
+    displayTest="MATCH_VERSION"
+    description='''Evoke the MAGIKS.'''
+
+[[dependencies.archaia]]
+    modId="forge"
+    mandatory=true
+    versionRange="[54,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.archaia]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.4,)"
+    ordering="NONE"
+    side="BOTH"
+
+# [features.archaia]
+    # openGLVersion="[3.2,)"
